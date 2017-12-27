@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fdd486d-519e-44ee-8bb3-c3b6c7e69452" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/follow_result.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto_follow.py" afterPath="$PROJECT_DIR$/auto_follow.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/follow.html" afterPath="$PROJECT_DIR$/templates/follow.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +14,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="auto_follow.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auto_follow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="flask_bootstrap" />
       </list>
     </option>
   </component>
@@ -55,9 +53,10 @@
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/tweet.py" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/auto_follow.py" />
-        <option value="$PROJECT_DIR$/templates/follow.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/follow.html" />
+        <option value="$PROJECT_DIR$/templates/follow_result.html" />
+        <option value="$PROJECT_DIR$/auto_follow.py" />
       </list>
     </option>
   </component>
@@ -155,8 +154,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="1624" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22566372" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="589" y="95" width="406" height="955" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22566372" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="589" y="95" width="406" height="955" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -298,14 +298,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -319,16 +311,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto_follow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1514257667488" expanded="true" signature="0:23" ph="import ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -362,62 +344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/follow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1514257760624" expanded="true" signature="31:126" ph="..." />
-            <marker date="1514257760624" expanded="true" signature="38:99" ph="..." />
-            <marker date="1514257760624" expanded="true" signature="106:118" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <marker date="1512982339966" expanded="true" signature="31:635" ph="..." />
-            <marker date="1512982339966" expanded="true" signature="42:442" ph="..." />
-            <marker date="1512982339966" expanded="true" signature="454:627" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1514263493974" expanded="true" signature="31:498" ph="..." />
-            <marker date="1514263493974" expanded="true" signature="38:156" ph="..." />
-            <marker date="1514263493974" expanded="true" signature="163:490" ph="..." />
-            <marker date="1514263493974" expanded="true" signature="191:482" ph="..." />
-            <marker date="1514263493974" expanded="true" signature="217:471" ph="..." />
-            <marker date="1514263493974" expanded="true" signature="265:397" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap-grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -481,6 +408,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -499,11 +434,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1514263493974" expanded="true" signature="31:498" ph="..." />
+            <marker date="1514263493974" expanded="true" signature="38:156" ph="..." />
+            <marker date="1514263493974" expanded="true" signature="163:490" ph="..." />
+            <marker date="1514263493974" expanded="true" signature="191:482" ph="..." />
+            <marker date="1514263493974" expanded="true" signature="217:471" ph="..." />
+            <marker date="1514263493974" expanded="true" signature="265:397" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1512982339966" expanded="true" signature="31:635" ph="..." />
+            <marker date="1512982339966" expanded="true" signature="42:442" ph="..." />
+            <marker date="1512982339966" expanded="true" signature="454:627" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/follow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <marker date="1514336646868" expanded="true" signature="130:524" ph="..." />
+            <marker date="1514336646868" expanded="true" signature="274:517" ph="..." />
+            <marker date="1514336646868" expanded="true" signature="306:439" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/follow_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <marker date="1514336953602" expanded="true" signature="130:153" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_follow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
