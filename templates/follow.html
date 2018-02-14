@@ -1,19 +1,26 @@
-{% extends "bootstrap/base.html" %}
-{% block title %}follow{% endblock %}
+<!DOCTYPE HTML>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <title>follow</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+{% block title %}follow{% endblock %}
 {% block navbar %}
 <div class="navbar navbar-fixed-top">
    {% if message %}
     <p>{{message}}</p>
     {% endif %}
-    <form class="form-inline" action="{{ url_for('follow_result') }}" method="post">
+    <form class="form-inline" action="{{ url_for('follow_result') }}" method="POST">
         <div class="form-grop">
             <label>キーワード</label>
             <input type="text" class="form-control" key="key" placeholder="フォローしよう">
         </div>
         <button type="submit" class="btn btn-default">follow</button>
-</form>
+    </form>
 </div>
 {% endblock %}
-
+</html>>
 

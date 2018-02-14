@@ -1,8 +1,29 @@
+<!DOCTYPE HTML>
+<html>
 
+    <head>
+        <meta charset="UTF-8">
+        <title>follow</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+           {% if message %}
+            <p>{{message}}</p>
+            {% endif %}
+            <form  action="{{ url_for('follow') }}" method="post">
+                <label>フォロー＆ファボしたいキーワード</label>
+                <input type="text" name='name'  placeholder="name"/>
+                <label>件数</label>
+                 <input type="text" name='count' placeholder="count" size="4"/>
+                <button type="submit">follow</button>
 
-{% extends "base.html" %}
-{% block content %}
-    {% if msg %}
-    <p>「{{msg}}」 投稿しました</p>
-    {% endif %}
-{% endblock %}
+            </form>
+            <form action="{{url_for('unfavorite')}}"method="post">
+                <label>ファボ解除したいキーワード</label>
+                <input type="text" name="delname" placeholder="delname"/>
+                <button type="submit">unfav</button>
+
+            </form>
+    </body>
+</html>
+
