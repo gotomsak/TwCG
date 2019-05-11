@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>follow</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+    {% block title %}result{% endblock %}
+
+        {% if user %}
+            <p>{{user}}</p>
+        {% endif %}
+
+        {%if user_id%}
+            <p>{{user_id}}</p>
+        {%endif%}
+    </body>
+</html>
